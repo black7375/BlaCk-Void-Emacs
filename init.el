@@ -47,6 +47,8 @@
 ;;-------------------------Emacs Setting Load-------------------------;;
 (load-file "~/.emacs.d/src/editor/core-extends-mode.el")
 (load-file "~/.emacs.d/src/editor/core-edit-mode.el"   )
+(load-file "~/.emacs.d/src/editor/extends-mode.el"     )
+(load-file "~/.emacs.d/src/editor/edit-mode.el"        )
 (put 'downcase-region 'disabled nil)
 
 (custom-set-variables
